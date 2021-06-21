@@ -21,7 +21,7 @@ I first oversampled the data using naive random oversampling, SMOTE oversampling
 
 #### SMOTE Oversampling
 
-![SMOTE Oversampling](.Resources/smote_oversampling.PNG)
+![SMOTE Oversampling](Resources/smote_oversampling.PNG)
 
 - The balanced accuracy score is 63%.
 - The precision score for high_risk is 1% with a sensitivity score of 62%.
@@ -30,7 +30,7 @@ I first oversampled the data using naive random oversampling, SMOTE oversampling
 
 #### Undersampling Using ClusterCentroids
 
-![Undersampling](.Resources/undersampling.PNG)
+![Undersampling](Resources/undersampling.PNG)
 
 - The balance accuracy score is 53%.
 - The precision score for high_risk is 1% with a sensitivity score of 61%.
@@ -42,7 +42,7 @@ I then used a combinatorial approach of over and undersampling with the SMOTEENN
 
 #### Combination (Over and Under) Sampling Using SMOTEENN
 
-![Combination Sampling](.Resources/combination_sampling.PNG)
+![Combination Sampling](Resources/combination_sampling.PNG)
 
 - The balance accuracy score is 64%.
 - The precision score for high_risk is 1% with a sensitivity score of 70%.
@@ -54,7 +54,7 @@ Finally, I trained and compared two different ensemble classifiers, BalancedRand
 
 #### Balanced Random Forest Classifier
 
-![Balanced Random Forest Classifier](.Resources/brfc.PNG)
+![Balanced Random Forest Classifier](Resources/brfc.PNG)
 
 - The balance accuracy score is 79%.
 - The precision score for high_risk is 4% with a sensitivity score of 67%.
@@ -63,7 +63,7 @@ Finally, I trained and compared two different ensemble classifiers, BalancedRand
 
 #### Easy Ensemble AdaBoost Classifier
 
-![Easy Ensemble AdaBoost Classifier](.Resources/eec.PNG)
+![Easy Ensemble AdaBoost Classifier](Resources/eec.PNG)
 
 - The balance accuracy score is 93%.
 - The precision score for high_risk is 7% with a sensitivity score of 91%.
