@@ -32,7 +32,7 @@ I first oversampled the data using naive random oversampling, SMOTE oversampling
 
 ![Undersampling](Resources/undersampling.PNG)
 
-- The balance accuracy score is 53%.
+- The balanced accuracy score is 53%.
 - The precision score for high_risk is 1% with a sensitivity score of 61%.
 - The precision score for low_risk is 100% with a sensitivity score of 45%.
 - Overall, the precision score is 99% with a sensitivity score of 45%.
@@ -44,7 +44,7 @@ I then used a combinatorial approach of over and undersampling with the SMOTEENN
 
 ![Combination Sampling](Resources/combination_sampling.PNG)
 
-- The balance accuracy score is 64%.
+- The balanced accuracy score is 64%.
 - The precision score for high_risk is 1% with a sensitivity score of 70%.
 - The precision score for low_risk is 100% with a sensitivity score of 57%.
 - Overall, the precision score is 99% with a sensitivity score of 57%.
@@ -56,7 +56,7 @@ Finally, I trained and compared two different ensemble classifiers, BalancedRand
 
 ![Balanced Random Forest Classifier](Resources/brfc.PNG)
 
-- The balance accuracy score is 79%.
+- The balanced accuracy score is 79%.
 - The precision score for high_risk is 4% with a sensitivity score of 67%.
 - The precision score for low_risk is 100% with a sensitivity score of 91%.
 - Overall, the precision score is 99% with a sensitivity score of 91%.
@@ -65,10 +65,10 @@ Finally, I trained and compared two different ensemble classifiers, BalancedRand
 
 ![Easy Ensemble AdaBoost Classifier](Resources/eec.PNG)
 
-- The balance accuracy score is 93%.
+- The balanced accuracy score is 93%.
 - The precision score for high_risk is 7% with a sensitivity score of 91%.
 - The precision score for low_risk is 100% with a sensitivity score of 94%.
 - Overall, the precision score is 99% with a sensitivity score of 94%.
 
 ## Summary
-The first three resampling models and the combination sampling model had similar balance accuracy scores between 63-65%, with the only exception being the undersampling model with a balance accuracy score of 53%. This is significantly lower than the ensemble classifiers where the BalancedRandomForestClassifier had a balance accuracy score of 79% and the EasyEnsembleClassifier had a balance accuracy score of 93%. 
+The first three resampling models and the combination sampling model had similar balanced accuracy scores between 63-65%, with the only exception being the undersampling model with a balanced accuracy score of 53%. This is significantly lower than the ensemble classifiers where the BalancedRandomForestClassifier had a balanced accuracy score of 79% and the EasyEnsembleClassifier had a balanced accuracy score of 93%. 
