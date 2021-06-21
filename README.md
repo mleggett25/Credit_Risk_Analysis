@@ -8,7 +8,7 @@ The purpose of this analysis was to evaluate the performance of machine learning
 ## Results
 
 ### Resampling Models to Predict Credit Risk
-I first oversampled the data using naive random oversampling, SMOTE oversampling, and undersampling algorithms to predict credit risk.
+I first oversampled the data using naive random oversampling and SMOTE oversampling, and then undersampled the data using ClusterCentroids.
 
 #### Naive Random Oversampling Using RandomOversampler
 
