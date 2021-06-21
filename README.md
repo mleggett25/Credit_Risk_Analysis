@@ -71,4 +71,4 @@ Finally, I trained and compared two different ensemble classifiers, BalancedRand
 - Overall, the precision score is 99% with a sensitivity score of 94%.
 
 ## Summary
-
+The first three resampling models and the combination sampling model had similar balance accuracy scores between 63-65%, with the only exception being the undersampling model with a balance accuracy score of 53%. This is significantly lower than the ensemble classifiers where the BalancedRandomForestClassifier had a balance accuracy score of 79% and the EasyEnsembleClassifier had a balance accuracy score of 93%. 
