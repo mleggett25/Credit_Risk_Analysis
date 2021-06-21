@@ -44,7 +44,31 @@ I then used a combinatorial approach of over and undersampling with the SMOTEENN
 
 ![Combination Sampling](.Resources/combination_sampling.PNG)
 
-- The balance accuracy score is
-- The precision score for high_risk is
-- The precision score for low_risk is
-- Overall, the precision score is
+- The balance accuracy score is 64%.
+- The precision score for high_risk is 1% with a sensitivity score of 70%.
+- The precision score for low_risk is 100% with a sensitivity score of 57%.
+- Overall, the precision score is 99% with a sensitivity score of 57%.
+
+### Ensemble Classifiers to Predict Credit Risk
+Finally, I trained and compared two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+
+#### Balanced Random Forest Classifier
+
+![Balanced Random Forest Classifier](.Resources/brfc.PNG)
+
+- The balance accuracy score is 79%.
+- The precision score for high_risk is 4% with a sensitivity score of 67%.
+- The precision score for low_risk is 100% with a sensitivity score of 91%.
+- Overall, the precision score is 99% with a sensitivity score of 91%.
+
+#### Easy Ensemble AdaBoost Classifier
+
+![Easy Ensemble AdaBoost Classifier](.Resources/eec.PNG)
+
+- The balance accuracy score is 93%.
+- The precision score for high_risk is 7% with a sensitivity score of 91%.
+- The precision score for low_risk is 100% with a sensitivity score of 94%.
+- Overall, the precision score is 99% with a sensitivity score of 94%.
+
+## Summary
+
