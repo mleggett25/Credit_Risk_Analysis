@@ -12,7 +12,7 @@ I first oversampled the data using naive random oversampling, SMOTE oversampling
 
 #### Naive Random Oversampling Using RandomOversampler
 
-![Naive Random Oversampling](Resources/naive_random_sampling.png)
+![Naive Random Oversampling](Resources/naive_random_sampling.PNG)
 
 - The balanced accuracy score is 65%.
 - The precision score for high_risk is 1% with a sensitivity score of 63%.
